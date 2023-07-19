@@ -61,7 +61,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://feature-todoapp--dashing-druid-b4a5da.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,6 +157,6 @@ I would like to thank [Microverse](https://www.microverse.org/go)
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT]() licensed.
+This project is [MIT](https://github.com/Chandan-devs-tech/react-todo-list/blob/feature/TodoApp/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
