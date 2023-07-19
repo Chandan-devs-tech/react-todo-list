@@ -8,10 +8,10 @@
 
 .clearBtn {
   padding: 10px;
-    font-size: 23px;
-    background: transparent;
-    border: none;
-    margin-top: 25px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    cursor: pointer;
+  font-size: 23px;
+  background: transparent;
+  border: none;
+  margin-top: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
 }
