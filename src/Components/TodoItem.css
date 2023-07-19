@@ -1,0 +1,21 @@
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 8px;
+}
+
+.checkText {
+  display: flex;
+  gap: 5px;
+}
+
+.editDelete {
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}

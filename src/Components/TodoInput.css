@@ -1,0 +1,19 @@
+form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.todoInput {
+  padding: 8px;
+  width: 100%;
+}
+
+.circleplus {
+  font-size: 25px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}

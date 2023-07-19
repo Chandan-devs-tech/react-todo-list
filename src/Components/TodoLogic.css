@@ -1,0 +1,17 @@
+.todoLogic {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.clearBtn {
+  padding: 10px;
+    font-size: 23px;
+    background: transparent;
+    border: none;
+    margin-top: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}

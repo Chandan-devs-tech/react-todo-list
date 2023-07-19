@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
 import './App.css';
+import TodoLogic from './Components/TodoLogic';
+import Header from './Components/Header';
 
 function App() {
+  const [todos, setTodos] = useState([]);
+  const [counter, setCounter] = useState(0);
+
+  useEffect(() => {
+    const storedTodos = localStorage.getItem('todos');
+    const storedCounter = localStorage.getItem('counter');
+    if (storedTodos) {
+      setTodos(JSON.parse(storedTodos));
+    }
+    if (storedCounter) {
+      setCounter(parseInt(storedCounter, 10));
+    }
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="todoApp">
+      <Header />
+      <TodoLogic todos={todos} setTodos={setTodos} counter={counter} setCounter={setCounter} />
     </div>
   );
 }

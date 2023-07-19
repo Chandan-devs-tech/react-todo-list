@@ -1,0 +1,15 @@
+.todoHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.todoHeading {
+  font-size: 50px;
+}
+
+.todoPara {
+  font-size: 20px;
+}
